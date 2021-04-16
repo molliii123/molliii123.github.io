@@ -28,9 +28,9 @@
 
     <script>
       window.onload = function nameFun(){
-      document.body.innerHTML = document.body.innerHTML.replace(/Dogname/gi, localStorage.getItem("userInput"));
-    }
-      </script>
+        document.body.innerHTML = document.body.innerHTML.replace(/Dogname/gi, localStorage.getItem("userInput"));
+      }
+    </script>
 
     <div class="row">
       <div class="column2">
@@ -50,20 +50,20 @@
       <script>
       function tryruncount() {
         var tryruncounter = 0;
-         tryruncounter++;
-         localStorage.setItem('tryruncounter', tryruncounter);
+        tryruncounter++;
+        localStorage.setItem('tryruncounter', tryruncounter);
       }
-    </script>
+      </script>
 
       <br><a id="scareofficer" onclick="scareofficercount();"style="text-decoration:none; color: #CA39CA; border-style: solid; border-width: 3px; border-color: #C289F4; border-radius: 12px;" href="scareofficer.html">Scare animal control</a>
     </div>
     <script>
     function scareofficercount() {
       var scareofficercounter = 0;
-       scareofficercounter++;
-       localStorage.setItem('scareofficercounter', scareofficercounter);
+      scareofficercounter++;
+      localStorage.setItem('scareofficercounter', scareofficercounter);
     }
-  </script>
+    </script>
 
   </body>
 </html>

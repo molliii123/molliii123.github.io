@@ -98,32 +98,32 @@ p {
 }
 
 #instructionwrapper {
-width:800px;
-margin : 0;
-margin-left: 40px;
+  width:800px;
+  margin : 0;
+  margin-left: 40px;
 }
 
 #instruction1 {
-width:50%;
-margin : 0;
-float : left;
+  width:50%;
+  margin : 0;
+  float : left;
 }
 
 #instruction2 {
-width:50%;
-margin : 0;
-float : left;
+  width:50%;
+  margin : 0;
+  float : left;
 }
 
 #namedogwrapper {
-width:800px;
-margin-left: 200px;
-padding-top: 150px;
+  width:800px;
+  margin-left: 200px;
+  padding-top: 150px;
 }
 
 #namedogtxt {
-width:50%;
-margin-left : 50px;
+  width:50%;
+  margin-left : 50px;
 }
 
 .mainbutton{

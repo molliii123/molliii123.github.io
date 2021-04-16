@@ -3,7 +3,6 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <meta charset="utf-8">
     <title >Way Home</title >
-
   </head>
 
   <body>
@@ -33,8 +32,8 @@
     <script>
       window.onload = function nameFun(){
       document.body.innerHTML = document.body.innerHTML.replace(/Dogname/gi, localStorage.getItem("userInput"));
-    }
-      </script>
+      }
+    </script>
 
     <div class="row" style="height: 220px;">
       <div class="column2">
@@ -53,8 +52,8 @@
         var runundercarcounter = 0;
          runundercarcounter++;
          localStorage.setItem('runundercarcounter', runundercarcounter);
-      }
-    </script>
+        }
+      </script>
 
       <br><a id="goacrossroad" onclick="waitcarcount();" style="text-decoration:none; color: #CA39CA; border-style: solid; border-width: 3px; border-color: #C289F4; border-radius: 12px;" href="waitforcar.html">Wait for car to pass by</a>
     </div>
@@ -63,8 +62,8 @@
       var waitcarcounter = 0;
        waitcarcounter++;
        localStorage.setItem('waitcarcounter', waitcarcounter);
-    }
-  </script>
+      }
+    </script>
 
   </body>
 </html>

@@ -30,8 +30,8 @@
     <script>
       window.onload = function nameFun(){
       document.body.innerHTML = document.body.innerHTML.replace(/Dogname/gi, localStorage.getItem("userInput"));
-    }
-      </script>
+      }
+    </script>
 
     <div class="row" style="height: 240px;">
       <div class="column">
@@ -53,8 +53,8 @@
         var loseofficercounter = 0;traffic
          loseofficercounter++;
          localStorage.setItem('loseofficercounter', loseofficercounter);
-      }
-    </script>
+        }
+      </script>
 
       <br><a id="traffic" onclick="trafficcount();" style="text-decoration:none; color: #CA39CA; border-style: solid; border-width: 3px; border-color: #C289F4; border-radius: 12px;" href="trafficrun.html">Run through traffic</a>
     </div>
@@ -63,8 +63,8 @@
       var trafficcounter = 0;
        trafficcounter++;
        localStorage.setItem('trafficcounter', trafficcounter);
-    }
-  </script>
+      }
+    </script>
 
   </body>
 </html>
